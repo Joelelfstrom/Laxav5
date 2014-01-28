@@ -1,0 +1,31 @@
+table {
+        border: 1px solid #000;
+        font-family: Sans-serif;
+}
+
+thead {
+        background: #ccc;
+        text-shadow: #fffafa 1px 1px 1px;
+}
+
+tr {
+        background-color: #f00;
+}
+
+tr:hover {
+        background-color: #fff;
+}
+
+tr {
+-webkit-transition: background-color 2s;
+   -moz-transition: background-color 2s;
+         -ms-transition: background-color 2s;
+          -o-transition: background-color 2s;
+             transition: background-color 1s;
+}
+
+.sum td {
+        border-top: 1px dashed #000;
+        font-weight: bold;
+        box-shadow: 0 0 4px #333;
+}
